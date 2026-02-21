@@ -45,7 +45,6 @@
 <script src="{$WEB_ROOT}/templates/{$template}/assets/js/auto-rtl/main-rtl.js?v={$versionHash}"></script>
 {else}
 <link href="{$WEB_ROOT}/templates/{$template}/assets/css/main.css?v={$versionHash}" rel="stylesheet">
-<html>
 {/if}
 
 <!-- Brand color skin — loads after main.css -->
