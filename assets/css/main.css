@@ -813,9 +813,7 @@ ul.top-nav>li>a.btn-logged-in-admin:hover {
     background-position: top center;
     background-size: cover;
 }
-.top-header{
-	display: none!important;
-}
+
 /*-----------------------------------
     OWL Carousel
 ------------------------------------*/
