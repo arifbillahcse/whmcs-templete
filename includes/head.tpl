@@ -1,4 +1,5 @@
 <!-- Styling -->
+<link href="//fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:400,700" rel="stylesheet">
 <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css?v={$versionHash}" rel="stylesheet">
 {assetExists file="custom.css"}
@@ -51,10 +52,8 @@
 <html>
 {/if}
 
-<!-- Antler custom color styles -->
-<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/pink.css" rel="stylesheet" title="pink"/>
-<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/blue.css" rel="stylesheet" title="blue"/ >
-<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/green.css" rel="stylesheet" title="green"/>
+<!-- Brand color skin -->
+<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/pink.css" rel="stylesheet">
 
 
 

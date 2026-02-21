@@ -2,363 +2,366 @@
 Project: Antler - Hosting Provider & WHMCS Template
 Description: Antler Responsive Premium Template Designed for all web hosting providers
 Author: inebur (Rúben Rodrigues)
-Author URI: http://inebur.com/
-Author Envato: https://themeforest.net/user/inebur
-Copyright: 2021 inebur
-Version: 2.4
 
- * Blue Color Skin
+ * Hostorio Brand Color Skin
+ * Primary Blue:  #0170B9
+ * Dark Blue:     #0C379A
+ * Navy Blue:     #01257D
  -------------------------------------------------------------------*/
 
-/* Blue Light */
+/* ===== Primary Blue (#0170B9) ===== */
 svg #svg-ico {
-    fill:#0c379a;
+    fill: #0170B9;
 }
 svg #svg-concept {
-    stroke:#0c379a;
+    stroke: #0170B9;
 }
 .golink {
-    color: #0c379a !important;
-    border-bottom: solid 1px #0c379a;
+    color: #0170B9 !important;
+    border-bottom: solid 1px #0170B9;
 }
 .golink:hover {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 .bg-pink {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 .c-pink {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 .bb-pink {
-    border-bottom: solid 1px #0c379a !important;
+    border-bottom: solid 1px #0170B9 !important;
 }
 .popover {
-    border: solid 1px #0c379a;
+    border: solid 1px #0170B9;
 }
 .popover .arrow::before {
-    border-top-color: #0c379a;
+    border-top-color: #0170B9;
 }
-.popover .popover-header{
-    background-color: #0c379a;
+.popover .popover-header {
+    background-color: #0170B9;
 }
 ::selection {
-    background: #0c379a;
+    background: #0170B9;
 }
 .nav-menu .main-menu > .menu-item > .sub-menu > .menu-item a:hover {
-    color: #0c379a;
+    color: #0170B9;
 }
 .nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a:hover {
-    color: #0c379a;
+    color: #0170B9;
 }
 .team .wrapper:hover .team-info .desc {
-    color: #0c379a;
+    color: #0170B9;
 }
 .wpc-cloud-range .noUi-connect {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .wpc-cloud-range .noUi-tooltip:before {
-    border-color: #0c379a transparent transparent transparent;
+    border-color: #0170B9 transparent transparent transparent;
 }
 .wpc-cloud-range .noUi-tooltip {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .wpc-cloud-range .noUi-horizontal .noUi-handle {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .wpc-vps-info .title .info {
-    color: #0c379a;
+    color: #0170B9;
 }
 .fullrock .closer {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 .form-control:focus {
-    border:  solid 1px #0c379a !important;
+    border: solid 1px #0170B9 !important;
 }
 .sec-bg5 {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .total-grad {
-    background: linear-gradient(-60deg, #0c379a 0%,#1697bf 100%) !important;
+    background: linear-gradient(-60deg, #0170B9 0%, #0C379A 100%) !important;
 }
 .total-grad-inverse {
-    background: linear-gradient(240deg, #1697bf 0%,#0c379a 100%);
+    background: linear-gradient(240deg, #0C379A 0%, #0170B9 100%);
 }
 .menu-wrap.fixed {
-    background: linear-gradient(89deg,#0c379a 3%,#0d56ff 98%);
+    background: linear-gradient(89deg, #01257D 3%, #0170B9 98%);
 }
 .btn-default-pink {
-    color: #0c379a;
-    border: 1px solid #0c379a;
+    color: #0170B9;
+    border: 1px solid #0170B9;
 }
 .btn-default-pink:hover {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .btn-default-grad-purple-fill {
-    background-image: linear-gradient(to right, #1697bf, #0c379a 40%, #0c379a 40%, #1697bf);
+    background-image: linear-gradient(to right, #0C379A, #0170B9 40%, #0170B9 40%, #0C379A);
 }
 .btn-default-grad-purple-fill:hover {
-    background-image: linear-gradient(to right, #1697bf, #0c379a 40%, #0c379a 40%, #1697bf);
+    background-image: linear-gradient(to right, #0C379A, #0170B9 40%, #0170B9 40%, #0C379A);
 }
 .btn-default-pink-fill {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 .btn.btn-success {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 .btn.btn-link {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-    border: solid 1px #0c379a !important;
+    border: solid 1px #0170B9 !important;
 }
 .pricing .wrapper .title {
-    color: #0c379a;
+    color: #0170B9;
 }
 .pricing .list-info {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .slick #slider .plan-container .title {
-    color: #0c379a;
+    color: #0170B9;
 }
 .tabs-header .btn-secondary:not(:disabled):not(.disabled).active {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 .tabs.offers-tabs .tabs-header .active {
-    border-left: solid 1px #0c379a;
-    color: #0c379a;
+    border-left: solid 1px #0170B9;
+    color: #0170B9;
 }
 .tabs.offers-tabs .tabs-header .active:hover {
-    color: #0c379a;
+    color: #0170B9;
 }
 .fill-input:focus {
-    border-color: #0c379a !important;
+    border-color: #0170B9 !important;
 }
 .countdown .wrapper .clock div:first-child {
-    border: solid 1px #0c379a;
-    background-color: #0c379a;
+    border: solid 1px #0170B9;
+    background-color: #0170B9;
 }
 .accordion.faq .panel-title.active {
-    border-bottom: solid 1px #0c379a;
+    border-bottom: solid 1px #0170B9;
 }
 .blog .sidebar .heading.active {
-    color: #0c379a;
+    color: #0170B9;
 }
 .blog .sidebar .posts .tabs-header li.active {
-    color: #0c379a;
-    border-bottom-color: #0c379a;
+    color: #0170B9;
+    border-bottom-color: #0170B9;
 }
 .blog .sidebar .line.active:before {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .blog .media .media-heading a:hover {
-    color: #0c379a;
+    color: #0170B9;
 }
 .blog .wrap-blog .social-icon i {
-    color: #0c379a;
+    color: #0170B9;
 }
 .blog .sidebar .categories .heading a.active {
-    color: #0c379a;
+    color: #0170B9;
 }
 .blog .sidebar .categories .heading a:after {
-    color: #0c379a;
+    color: #0170B9;
 }
 .blog .sidebar .categories .heading span {
-    color: #0c379a;
+    color: #0170B9;
 }
 .circle-section .title-round {
-    color: #0c379a;
+    color: #0170B9;
 }
 .domain-prices li {
-    color: #0c379a;
+    color: #0170B9;
 }
 .maping .datacenters {
-    background: #0c379a;
+    background: #0170B9;
 }
 .footer .soc-icons i {
-    color: #0c379a;
+    color: #0170B9;
 }
-.included i{
-    color: #0c379a;
+.included i {
+    color: #0170B9;
 }
 .soc-icons-apply span {
-    color: #0c379a;
+    color: #0170B9;
 }
 .bigline {
-    border:  solid 1px #0c379a;
+    border: solid 1px #0170B9;
 }
 .smallline {
-    border:  solid 1px #0c379a;
+    border: solid 1px #0170B9;
 }
 .knowledge a {
-    color: #0c379a;
+    color: #0170B9;
 }
-.godown span{
-    color: #0c379a;
+.godown span {
+    color: #0170B9;
 }
-.cd-filter-block input[type=radio]:checked + label::before, .cd-filter-block input[type=checkbox]:checked + label::before {
-    border: solid 1px #0c379a !important;
-    background-color: #0c379a !important;
+.cd-filter-block input[type=radio]:checked + label::before,
+.cd-filter-block input[type=checkbox]:checked + label::before {
+    border: solid 1px #0170B9 !important;
+    background-color: #0170B9 !important;
 }
 .cd-filter-block select:hover {
-    border: solid 1px #0c379a !important;
+    border: solid 1px #0170B9 !important;
 }
 .cd-filter-block input:hover {
-    border: solid 1px #0c379a !important;
+    border: solid 1px #0170B9 !important;
 }
 .cd-filter-block input:focus,
 .cd-filter-block select:focus {
-    border-color: #0c379a !important;
+    border-color: #0170B9 !important;
 }
 .range-slider-input::-webkit-slider-runnable-track {
-    background: #0c379a;
+    background: #0170B9;
 }
 .range-slider-input::-webkit-slider-thumb {
-    background: #0c379a;
+    background: #0170B9;
 }
 .zoo-content .icoo i {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
-.dropdown-menu>li>a:hover  {
-    color: #0c379a !important;
+.dropdown-menu > li > a:hover {
+    color: #0170B9 !important;
 }
-.navbar-main .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: #0c379a !important;
+.navbar-main .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #0170B9 !important;
 }
 a.active {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 .panel-sidebar a.list-group-item:hover {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
-.panel-sidebar a.list-group-item.active i, .panel-sidebar a.list-group-item.active:focus i, .panel-sidebar a.list-group-item.active:hover i {
-    color: #0c379a !important;
+.panel-sidebar a.list-group-item.active i,
+.panel-sidebar a.list-group-item.active:focus i,
+.panel-sidebar a.list-group-item.active:hover i {
+    color: #0170B9 !important;
 }
 #main-body .header-lined h1 {
-    color: #0c379a!important;
+    color: #0170B9 !important;
 }
 #order-antler .price-table-container .price-table ul {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
-#order-antler .price-table-container #product2 .price-table ul li .list-info .spec{
-    color: #0c379a;
+#order-antler .price-table-container #product2 .price-table ul li .list-info .spec {
+    color: #0170B9;
 }
 #order-antler .price-table-container .price-table .top-head .top-area h4 {
-    color: #0c379a;
+    color: #0170B9;
 }
 #order-standard_cart .panel-addon .panel-add {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 #order-standard_cart .panel-addon-selected {
-    border-color: #0c379a !important;
+    border-color: #0170B9 !important;
 }
 #order-standard_cart .panel-addon-selected .panel-price {
-    background-color: #0c379a !important;
+    background-color: #0170B9 !important;
 }
 #order-standard_cart .sub-heading span {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 #order-standard_cart .list-info .spec {
-    color: #0c379a;
+    color: #0170B9;
 }
 .label-warning {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .featured-tld .price.com {
-    background-color: #0c379a;
+    background-color: #0170B9;
 }
 .domain-pricing .tld-pricing-header div:nth-child(odd) {
-    border-color: #0c379a;
+    border-color: #0170B9;
 }
 .domain-pricing .tld-pricing-header .col-sm-4 {
-    border-bottom: 1px solid #0c379a;
+    border-bottom: 1px solid #0170B9;
 }
 .domain-pricing .tld-pricing-header .col-xs-4 {
-    border-bottom: 1px solid #0c379a;
+    border-bottom: 1px solid #0170B9;
 }
 .suggested-domains .extension {
-    color: #0c379a;
+    color: #0170B9;
 }
 .domain-checker-available {
-    color: #0c379a !important;
+    color: #0170B9 !important;
 }
 .suggested-domains .panel-heading {
-    border-bottom: 1px solid #0c379a !important;
+    border-bottom: 1px solid #0170B9 !important;
 }
-.table>thead>tr>th {
-    border-bottom: solid 1px #0c379a !important;
+.table > thead > tr > th {
+    border-bottom: solid 1px #0170B9 !important;
 }
 .tile .stat {
-    color: #0c379a;
+    color: #0170B9;
 }
 #order-antler .price-table-container .price-table .popular-plan {
-    background: #0c379a;
+    background: #0170B9;
 }
 #addons-antler .product-desc span {
-    color: #0c379a;
+    color: #0170B9;
 }
-/* Blue Dark */
+
+/* ===== Dark Blue (#0C379A) ===== */
 .bg-purple {
-    background-color: #1697bf !important;
+    background-color: #0C379A !important;
 }
 .c-purple {
-    color: #1697bf !important;
+    color: #0C379A !important;
 }
 .sec-grad-white-to-purple {
-    background: linear-gradient(90deg, #fff 70%, #1697bf 0%) !important;
+    background: linear-gradient(90deg, #fff 70%, #0C379A 0%) !important;
 }
 .btn-default-purple {
-    color: #1697bf;
-    border: 1px solid #1697bf;
+    color: #0C379A;
+    border: 1px solid #0C379A;
 }
 .btn-default-purple:hover {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 .btn-default-purple-fill {
-    background-color: #1697bf !important;
+    background-color: #0C379A !important;
 }
 .btn.btn-warning {
-    background-color: #1697bf !important;
+    background-color: #0C379A !important;
 }
 .btn.btn-danger {
-    background-color: #1697bf !important;
+    background-color: #0C379A !important;
 }
 .pricing .table .title {
-    color: #1697bf;
+    color: #0C379A;
 }
 .accordion.faq .panel-title.active {
-    color: #1697bf !important;
+    color: #0C379A !important;
 }
 .wpc-vps-info .price-wrap .title {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product2 .price-table ul {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product5 .price-table ul {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product5 .price-table ul li .list-info .spec {
-    color: #0c379a;
+    color: #0170B9;
 }
 #order-antler .price-table-container #product8 .price-table ul {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product8 .price-table ul li .list-info .spec {
-    color: #0c379a;
+    color: #0170B9;
 }
 #order-antler .price-table-container #product11 .price-table ul {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product11 .price-table ul li .list-info .spec {
-    color: #0c379a;
+    color: #0170B9;
 }
 #order-antler .price-table-container #product14 .price-table ul {
-    background-color: #1697bf;
+    background-color: #0C379A;
 }
 #order-antler .price-table-container #product14 .price-table ul li .list-info .spec {
-    color: #0c379a;
+    color: #0170B9;
 }
-#order-antler .price-table-container .price-table ul li .list-info .spec{
-    color: #1697bf;
+#order-antler .price-table-container .price-table ul li .list-info .spec {
+    color: #0C379A;
 }

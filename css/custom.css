@@ -1,12 +1,404 @@
 /* *****************************************************
 
-    ** Custom Stylesheet **
+    ** Hostorio Brand Stylesheet **
 
-    Any custom styling you want to apply should be
-    defined here.
+    Brand colors, fonts, and overrides.
+    All customizations live here.
 
 ***************************************************** */
 
-#footer{
-    display: none!important;
+/* ===========================
+   CSS VARIABLES
+   =========================== */
+:root {
+    /* Primary Blues */
+    --primary-blue: #0170B9;
+    --dark-blue: #0C379A;
+    --medium-blue: #1558a8;
+    --light-blue: #1368E7;
+    --navy-blue: #01257D;
+
+    /* Accent / CTA */
+    --orange-primary: #FF7800;
+    --orange-light: #FF9000;
+    --orange-bright: #ff8c00;
+
+    /* Neutral */
+    --color-dark: #3a3a3a;
+    --color-text: #4B4F58;
+    --color-gray: #808285;
+    --color-light-gray: #F5F5F5;
+    --color-white: #FFFFFF;
+    --color-border: #dddddd;
+    --color-off-white: #fafafa;
+
+    /* Typography */
+    --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-rosario: "Rosario", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 0.44rem;
+    --spacing-sm: 0.67rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2.25rem;
+
+    /* Border Radius */
+    --radius-sm: 3px;
+    --radius-md: 5px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-full: 50px;
+}
+
+/* ===========================
+   FOOTER — unhide
+   =========================== */
+#footer {
+    display: block !important;
+}
+
+/* ===========================
+   TYPOGRAPHY
+   =========================== */
+body {
+    font-family: var(--font-primary) !important;
+    color: var(--color-text) !important;
+    background-color: var(--color-light-gray) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.section-heading,
+.top-banner .heading,
+.top-header .wrapper .heading {
+    font-family: var(--font-rosario) !important;
+}
+
+.navbar-main .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.form-control,
+.btn,
+.footer .heading,
+.footer .contact,
+.footer .copyrigh,
+.footer .footer-menu .menu-item,
+#top-nav a.quick-nav,
+.services .service-wrap .service-section .title,
+.services .service-wrap .service-section .subtitle,
+.pricing .wrapper .title,
+.section-subheading {
+    font-family: var(--font-primary) !important;
+}
+
+/* ===========================
+   HEADER & NAVBAR
+   =========================== */
+
+/* Sticky / fixed navbar background */
+.menu-wrap.fixed {
+    background: linear-gradient(89deg, var(--navy-blue) 3%, var(--primary-blue) 98%) !important;
+    box-shadow: 0 2px 8px 0 rgba(1, 37, 125, 0.25) !important;
+}
+
+/* Mobile full-screen nav background */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background-color: var(--navy-blue) !important;
+}
+
+/* Mobile nav link hover */
+.navbar-main .navbar-nav > li a:hover,
+.navbar-main .navbar-nav .open .dropdown-menu > li > a:hover,
+.menu-item .sub-menu .menu-item a:hover {
+    color: var(--orange-primary) !important;
+}
+
+/* Quick-nav (top small links) hover */
+#top-nav a.quick-nav:hover {
+    color: var(--orange-primary) !important;
+}
+
+/* Dropdown link hover */
+.dropdown-menu > li > a:hover {
+    color: var(--primary-blue) !important;
+}
+
+/* Hamburger toggle active color */
+#nav-toggle.active span:before,
+#nav-toggle.active span:after,
+.active #nav-toggle span:after,
+.active #nav-toggle span:before {
+    background-color: var(--orange-primary) !important;
+}
+
+/* Admin badge */
+ul.top-nav > li > a.btn-logged-in-admin {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+}
+ul.top-nav > li > a.btn-logged-in-admin:hover {
+    background-color: var(--dark-blue) !important;
+    color: #fff !important;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+.footer {
+    background-color: var(--navy-blue) !important;
+}
+
+.footer .soc-icons a:hover,
+.footer .soc-icons a:hover i,
+.footer .soc-icons i:hover,
+.footer .contact a:hover,
+.footer .contact a:hover i,
+.footer .footer-menu .menu-item a:hover,
+.footer .payment-list li i:hover {
+    color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   BUTTONS
+   =========================== */
+
+/* Primary button — orange CTA */
+.btn.btn-primary {
+    color: #fff !important;
+    background-color: var(--orange-primary) !important;
+}
+.btn.btn-primary:hover {
+    background-color: var(--dark-blue) !important;
+    color: #fff !important;
+}
+
+/* Default button — blue fill */
+.btn.btn-default {
+    color: #fff !important;
+    background-color: var(--primary-blue) !important;
+}
+.btn.btn-default:hover {
+    color: #fff !important;
+    background-color: var(--dark-blue) !important;
+}
+
+/* Success / Warning / Danger / Link buttons hover */
+.btn.btn-success:hover,
+.btn.btn-warning:hover,
+.btn.btn-danger:hover,
+.btn.btn-link:hover {
+    background-color: var(--dark-blue) !important;
+    color: #fff !important;
+}
+
+/* btn-default-yellow-fill → now orange */
+.btn-default-yellow-fill {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+    border: none;
+}
+.btn-default-yellow-fill:hover {
+    background-color: var(--dark-blue) !important;
+    color: #fff !important;
+    border: none;
+}
+
+/* btn-default-fill → now primary blue */
+.btn-default-fill {
+    background-color: var(--primary-blue) !important;
+    color: #fff !important;
+    border: none;
+}
+.btn-default-fill:hover {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+    border: none;
+}
+
+/* btn-default-pink-fill, btn-default-purple-fill hover */
+.btn-default-pink-fill:hover,
+.btn-default-purple-fill:hover {
+    background-color: var(--dark-blue) !important;
+    color: #fff !important;
+}
+
+/* Tab / billing period active button */
+.btn-secondary:not(:disabled):not(.disabled).active {
+    color: #fff !important;
+    background-color: var(--orange-primary) !important;
+    border: solid 1px var(--orange-primary) !important;
+}
+
+/* Label warning */
+.label-warning:hover {
+    background-color: var(--dark-blue) !important;
+}
+
+/* ===========================
+   FORMS
+   =========================== */
+.form-control:focus {
+    border: solid 1px var(--primary-blue) !important;
+}
+.fill-input:focus {
+    border-color: var(--primary-blue) !important;
+}
+
+/* ===========================
+   SLIDER / HERO SECTION
+   =========================== */
+
+/* Breadcrumb active link */
+.top-header .wrapper .subheding .link.active,
+.top-header .wrapper .subheding .link:hover {
+    color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   OWL CAROUSEL
+   =========================== */
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background: var(--orange-primary) !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    border: solid 1px var(--orange-primary) !important;
+}
+
+/* ===========================
+   PRICING TABLES
+   =========================== */
+
+/* Active tab / billing selector */
+.tabs-header .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+    border-color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   SIDEBAR
+   =========================== */
+div.sidebar .list-group-item-selected {
+    background-color: var(--orange-primary) !important;
+}
+
+a.active {
+    color: var(--primary-blue) !important;
+}
+
+.panel-sidebar a.list-group-item:hover {
+    color: var(--primary-blue) !important;
+}
+
+.panel-sidebar a.list-group-item.active i,
+.panel-sidebar a.list-group-item.active:focus i,
+.panel-sidebar a.list-group-item.active:hover i {
+    color: var(--primary-blue) !important;
+}
+
+/* Plans badge (featured tag) */
+a.plans.badge.feat {
+    background-color: var(--orange-primary) !important;
+    border: solid 1px var(--orange-primary) !important;
+    color: #fff !important;
+}
+a.plans.badge.feat:hover {
+    background-color: transparent !important;
+    border: solid 1px var(--orange-primary) !important;
+    color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   SECTION BACKGROUNDS
+   =========================== */
+.sec-bg4 {
+    background-color: var(--orange-primary) !important;
+}
+
+.sec-grad-yellow-to-grey-left {
+    background: linear-gradient(90deg, var(--orange-primary) 70%, #d9dde4 10%) !important;
+}
+
+/* ===========================
+   ORDER / CART
+   =========================== */
+#order-standard_cart .order-summary .btn-continue-shopping {
+    background-color: var(--orange-primary) !important;
+}
+#order-standard_cart .order-summary .btn-continue-shopping:hover {
+    background-color: var(--dark-blue) !important;
+}
+
+#order-standard_cart .view-cart-items .item-qty button {
+    background-color: var(--primary-blue) !important;
+}
+
+#order-standard_cart .view-cart-items-header {
+    background-color: var(--dark-blue) !important;
+}
+
+#order-standard_cart .panel-addon-selected .panel-price:hover {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+}
+
+/* ===========================
+   DOMAIN PRICING
+   =========================== */
+.featured-tld .price.net {
+    background-color: var(--orange-primary) !important;
+    color: #fff !important;
+}
+
+/* ===========================
+   PAGE HEADER (client area)
+   =========================== */
+#main-body .header-lined h1 {
+    color: var(--dark-blue) !important;
+}
+
+/* ===========================
+   LOADER / SPINNER
+   =========================== */
+.double-bounce1,
+.double-bounce2 {
+    background-color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   BACK TO TOP
+   =========================== */
+.cd-top {
+    background: var(--orange-primary) !important;
+}
+.no-touch .cd-top:hover {
+    background-color: var(--dark-blue) !important;
+}
+
+/* ===========================
+   MOBILE MENU — ACTIVE ITEM
+   =========================== */
+.menu-item.active.menu-item-has-children {
+    background-color: var(--orange-primary) !important;
+}
+
+/* ===========================
+   UTILITY CLASSES
+   =========================== */
+.c-yellow {
+    color: var(--orange-primary) !important;
+}
+.bg-yellow {
+    background-color: var(--orange-primary) !important;
+}
+.bg-grey {
+    background-color: var(--primary-blue) !important;
+    color: #ffffff !important;
+}
+.c-grey {
+    color: var(--color-gray) !important;
 }
