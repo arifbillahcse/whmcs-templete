@@ -1,0 +1,364 @@
+/*------------------------------------------------------------------
+Project: Antler - Hosting Provider & WHMCS Template
+Description: Antler Responsive Premium Template Designed for all web hosting providers
+Author: inebur (Rúben Rodrigues)
+Author URI: http://inebur.com/
+Author Envato: https://themeforest.net/user/inebur
+Copyright: 2021 inebur
+Version: 2.4
+
+ * Blue Color Skin
+ -------------------------------------------------------------------*/
+
+/* Blue Light */
+svg #svg-ico {
+    fill:#0c379a;
+}
+svg #svg-concept {
+    stroke:#0c379a;
+}
+.golink {
+    color: #0c379a !important;
+    border-bottom: solid 1px #0c379a;
+}
+.golink:hover {
+    color: #0c379a !important;
+}
+.bg-pink {
+    background-color: #0c379a !important;
+}
+.c-pink {
+    color: #0c379a !important;
+}
+.bb-pink {
+    border-bottom: solid 1px #0c379a !important;
+}
+.popover {
+    border: solid 1px #0c379a;
+}
+.popover .arrow::before {
+    border-top-color: #0c379a;
+}
+.popover .popover-header{
+    background-color: #0c379a;
+}
+::selection {
+    background: #0c379a;
+}
+.nav-menu .main-menu > .menu-item > .sub-menu > .menu-item a:hover {
+    color: #0c379a;
+}
+.nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a:hover {
+    color: #0c379a;
+}
+.team .wrapper:hover .team-info .desc {
+    color: #0c379a;
+}
+.wpc-cloud-range .noUi-connect {
+    background-color: #0c379a;
+}
+.wpc-cloud-range .noUi-tooltip:before {
+    border-color: #0c379a transparent transparent transparent;
+}
+.wpc-cloud-range .noUi-tooltip {
+    background-color: #0c379a;
+}
+.wpc-cloud-range .noUi-horizontal .noUi-handle {
+    background-color: #0c379a;
+}
+.wpc-vps-info .title .info {
+    color: #0c379a;
+}
+.fullrock .closer {
+    color: #0c379a !important;
+}
+.form-control:focus {
+    border:  solid 1px #0c379a !important;
+}
+.sec-bg5 {
+    background-color: #0c379a;
+}
+.total-grad {
+    background: linear-gradient(-60deg, #0c379a 0%,#1697bf 100%) !important;
+}
+.total-grad-inverse {
+    background: linear-gradient(240deg, #1697bf 0%,#0c379a 100%);
+}
+.menu-wrap.fixed {
+    background: linear-gradient(89deg,#0c379a 3%,#0d56ff 98%);
+}
+.btn-default-pink {
+    color: #0c379a;
+    border: 1px solid #0c379a;
+}
+.btn-default-pink:hover {
+    background-color: #0c379a;
+}
+.btn-default-grad-purple-fill {
+    background-image: linear-gradient(to right, #1697bf, #0c379a 40%, #0c379a 40%, #1697bf);
+}
+.btn-default-grad-purple-fill:hover {
+    background-image: linear-gradient(to right, #1697bf, #0c379a 40%, #0c379a 40%, #1697bf);
+}
+.btn-default-pink-fill {
+    background-color: #0c379a !important;
+}
+.btn.btn-success {
+    background-color: #0c379a !important;
+}
+.btn.btn-link {
+    background-color: #0c379a !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    border: solid 1px #0c379a !important;
+}
+.pricing .wrapper .title {
+    color: #0c379a;
+}
+.pricing .list-info {
+    background-color: #0c379a;
+}
+.slick #slider .plan-container .title {
+    color: #0c379a;
+}
+.tabs-header .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: #0c379a !important;
+}
+.tabs.offers-tabs .tabs-header .active {
+    border-left: solid 1px #0c379a;
+    color: #0c379a;
+}
+.tabs.offers-tabs .tabs-header .active:hover {
+    color: #0c379a;
+}
+.fill-input:focus {
+    border-color: #0c379a !important;
+}
+.countdown .wrapper .clock div:first-child {
+    border: solid 1px #0c379a;
+    background-color: #0c379a;
+}
+.accordion.faq .panel-title.active {
+    border-bottom: solid 1px #0c379a;
+}
+.blog .sidebar .heading.active {
+    color: #0c379a;
+}
+.blog .sidebar .posts .tabs-header li.active {
+    color: #0c379a;
+    border-bottom-color: #0c379a;
+}
+.blog .sidebar .line.active:before {
+    background-color: #0c379a;
+}
+.blog .media .media-heading a:hover {
+    color: #0c379a;
+}
+.blog .wrap-blog .social-icon i {
+    color: #0c379a;
+}
+.blog .sidebar .categories .heading a.active {
+    color: #0c379a;
+}
+.blog .sidebar .categories .heading a:after {
+    color: #0c379a;
+}
+.blog .sidebar .categories .heading span {
+    color: #0c379a;
+}
+.circle-section .title-round {
+    color: #0c379a;
+}
+.domain-prices li {
+    color: #0c379a;
+}
+.maping .datacenters {
+    background: #0c379a;
+}
+.footer .soc-icons i {
+    color: #0c379a;
+}
+.included i{
+    color: #0c379a;
+}
+.soc-icons-apply span {
+    color: #0c379a;
+}
+.bigline {
+    border:  solid 1px #0c379a;
+}
+.smallline {
+    border:  solid 1px #0c379a;
+}
+.knowledge a {
+    color: #0c379a;
+}
+.godown span{
+    color: #0c379a;
+}
+.cd-filter-block input[type=radio]:checked + label::before, .cd-filter-block input[type=checkbox]:checked + label::before {
+    border: solid 1px #0c379a !important;
+    background-color: #0c379a !important;
+}
+.cd-filter-block select:hover {
+    border: solid 1px #0c379a !important;
+}
+.cd-filter-block input:hover {
+    border: solid 1px #0c379a !important;
+}
+.cd-filter-block input:focus,
+.cd-filter-block select:focus {
+    border-color: #0c379a !important;
+}
+.range-slider-input::-webkit-slider-runnable-track {
+    background: #0c379a;
+}
+.range-slider-input::-webkit-slider-thumb {
+    background: #0c379a;
+}
+.zoo-content .icoo i {
+    background-color: #0c379a;
+}
+.dropdown-menu>li>a:hover  {
+    color: #0c379a !important;
+}
+.navbar-main .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #0c379a !important;
+}
+a.active {
+    color: #0c379a !important;
+}
+.panel-sidebar a.list-group-item:hover {
+    color: #0c379a !important;
+}
+.panel-sidebar a.list-group-item.active i, .panel-sidebar a.list-group-item.active:focus i, .panel-sidebar a.list-group-item.active:hover i {
+    color: #0c379a !important;
+}
+#main-body .header-lined h1 {
+    color: #0c379a!important;
+}
+#order-antler .price-table-container .price-table ul {
+    background-color: #0c379a;
+}
+#order-antler .price-table-container #product2 .price-table ul li .list-info .spec{
+    color: #0c379a;
+}
+#order-antler .price-table-container .price-table .top-head .top-area h4 {
+    color: #0c379a;
+}
+#order-standard_cart .panel-addon .panel-add {
+    background-color: #0c379a !important;
+}
+#order-standard_cart .panel-addon-selected {
+    border-color: #0c379a !important;
+}
+#order-standard_cart .panel-addon-selected .panel-price {
+    background-color: #0c379a !important;
+}
+#order-standard_cart .sub-heading span {
+    color: #0c379a !important;
+}
+#order-standard_cart .list-info .spec {
+    color: #0c379a;
+}
+.label-warning {
+    background-color: #0c379a;
+}
+.featured-tld .price.com {
+    background-color: #0c379a;
+}
+.domain-pricing .tld-pricing-header div:nth-child(odd) {
+    border-color: #0c379a;
+}
+.domain-pricing .tld-pricing-header .col-sm-4 {
+    border-bottom: 1px solid #0c379a;
+}
+.domain-pricing .tld-pricing-header .col-xs-4 {
+    border-bottom: 1px solid #0c379a;
+}
+.suggested-domains .extension {
+    color: #0c379a;
+}
+.domain-checker-available {
+    color: #0c379a !important;
+}
+.suggested-domains .panel-heading {
+    border-bottom: 1px solid #0c379a !important;
+}
+.table>thead>tr>th {
+    border-bottom: solid 1px #0c379a !important;
+}
+.tile .stat {
+    color: #0c379a;
+}
+#order-antler .price-table-container .price-table .popular-plan {
+    background: #0c379a;
+}
+#addons-antler .product-desc span {
+    color: #0c379a;
+}
+/* Blue Dark */
+.bg-purple {
+    background-color: #1697bf !important;
+}
+.c-purple {
+    color: #1697bf !important;
+}
+.sec-grad-white-to-purple {
+    background: linear-gradient(90deg, #fff 70%, #1697bf 0%) !important;
+}
+.btn-default-purple {
+    color: #1697bf;
+    border: 1px solid #1697bf;
+}
+.btn-default-purple:hover {
+    background-color: #1697bf;
+}
+.btn-default-purple-fill {
+    background-color: #1697bf !important;
+}
+.btn.btn-warning {
+    background-color: #1697bf !important;
+}
+.btn.btn-danger {
+    background-color: #1697bf !important;
+}
+.pricing .table .title {
+    color: #1697bf;
+}
+.accordion.faq .panel-title.active {
+    color: #1697bf !important;
+}
+.wpc-vps-info .price-wrap .title {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product2 .price-table ul {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product5 .price-table ul {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product5 .price-table ul li .list-info .spec {
+    color: #0c379a;
+}
+#order-antler .price-table-container #product8 .price-table ul {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product8 .price-table ul li .list-info .spec {
+    color: #0c379a;
+}
+#order-antler .price-table-container #product11 .price-table ul {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product11 .price-table ul li .list-info .spec {
+    color: #0c379a;
+}
+#order-antler .price-table-container #product14 .price-table ul {
+    background-color: #1697bf;
+}
+#order-antler .price-table-container #product14 .price-table ul li .list-info .spec {
+    color: #0c379a;
+}
+#order-antler .price-table-container .price-table ul li .list-info .spec{
+    color: #1697bf;
+}
