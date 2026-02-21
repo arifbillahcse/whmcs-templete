@@ -351,7 +351,7 @@ a.plans.badge.feat:hover {
     transition: 0.3s;
 }
 .menu-wrap {
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 10px 0px;
     background-color: transparent;
