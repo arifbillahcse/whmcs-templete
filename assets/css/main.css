@@ -143,7 +143,7 @@ Version: 2.4
     display: none;
 }
 #main-menu {
-    background-color: transparent !important;
+    background-color: #01257D !important;
 }
 #main-menu .navbar-nav {
     margin-top: 8px;
@@ -351,7 +351,7 @@ a.plans.badge.feat:hover {
     transition: 0.3s;
 }
 .menu-wrap {
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 10px 0px;
     background-color: transparent;
@@ -812,6 +812,9 @@ ul.top-nav>li>a.btn-logged-in-admin:hover {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+.top-header{
+	display: none!important;
 }
 /*-----------------------------------
     OWL Carousel
