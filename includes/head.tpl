@@ -2,9 +2,6 @@
 <link href="//fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:400,700" rel="stylesheet">
 <link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css?v={$versionHash}" rel="stylesheet">
-{assetExists file="custom.css"}
-<link href="{$__assetPath__}" rel="stylesheet">
-{/assetExists}
 
 <!-- Antler styles -->
 <link href="{$WEB_ROOT}/templates/{$template}/assets/fonts/cloudicon/cloudicon.css?v={$versionHash}" rel="stylesheet">
@@ -47,13 +44,12 @@
 <link href="{$WEB_ROOT}/templates/{$template}/assets/css/auto-rtl/main-rtl.css?v={$versionHash}" rel="stylesheet">
 <script src="{$WEB_ROOT}/templates/{$template}/assets/js/auto-rtl/main-rtl.js?v={$versionHash}"></script>
 {else}
-<link href="{$WEB_ROOT}/templates/{$template}/assets/css/main.css" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/custom.css" rel="stylesheet">
+<link href="{$WEB_ROOT}/templates/{$template}/assets/css/main.css?v={$versionHash}" rel="stylesheet">
 <html>
 {/if}
 
-<!-- Brand color skin -->
-<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/pink.css" rel="stylesheet">
+<!-- Brand color skin — loads after main.css -->
+<link href="{$WEB_ROOT}/templates/{$template}/assets/css/colors/pink.css?v={$versionHash}" rel="stylesheet">
 
-
-
+<!-- Brand overrides — loads last so all rules take effect -->
+<link href="{$WEB_ROOT}/templates/{$template}/css/custom.css?v={$versionHash}" rel="stylesheet">
