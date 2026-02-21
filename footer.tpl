@@ -25,93 +25,158 @@
 FOOTER
 *******************
 -->
-<footer id="footer" class="footer">
-  <img class="logo-bg logo-footer" src="{$WEB_ROOT}/templates/{$template}/assets/img/symbol.svg" alt="symbol">
-  <div class="container">
-    <div class="footer-top">
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="heading">Hosting</div>
-          <ul class="footer-menu classic">
-            <li class="menu-item"><a href="http://inebur.com/antler/template/hosting">Shared Hosting</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/dedicated">Dedicated Server</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/vps">Cloud Virtual (VPS)</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/domains">Domain Names</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="heading">Support</div>
-          <ul class="footer-menu classic">
-            <li class="menu-item"><a href="http://inebur.com/antler/template/login">myAntler</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/knowledgebase-list">Knowledge Base</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/contact">Contact Us</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/faq">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <div class="heading">Company</div>
-          <ul class="footer-menu classic">
-            <li class="menu-item"><a href="http://inebur.com/antler/template/about">About Us</a> </li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/elements">Features</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/blog">Blog</a></li>
-            <li class="menu-item"><a href="http://inebur.com/antler/template/legal">Legal</a></li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-3 col-md-3">
-          <a><img class="svg logo-footer" src="{$WEB_ROOT}/templates/{$template}/assets/img/logo.svg" alt="logo"></a>
-          <div class="copyrigh">{lang key="copyrightFooterNotice" year=$date_year company=$companyname}</div>
-          <div class="soc-icons">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-google-plus-g"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="subcribe news">
+<footer id="footer" class="main-footer">
     <div class="container">
-      <div class="row">
-        <form action="#" class="w-100">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="general-input">
-              <input type="email" name="email" placeholder="Enter your email address" class="fill-input">
-              <input type="submit" value="SUBSCRIBE" class="btn-subscribe btn-default-yellow-fill">
+        <div class="footer-content">
+
+            <!-- Column 1: About -->
+            <div class="footer-column footer-about">
+                <div class="footer-logo">
+                    <h3><span class="logo-host">HOST</span><span class="logo-orio">ORIO</span></h3>
+                </div>
+                <p class="footer-description">
+                    Hostorio is a popular web hosting services provider. Hostorio provides Shared Hosting,
+                    Business Hosting, Reseller Hosting, VPS, and domain Registration-Transfer services.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/hostorio" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/hostorio" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@arifbillahcse" class="social-icon" aria-label="YouTube" target="_blank" rel="noopener">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/hostorio/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 col-md-offset-3 text-center pt-4">
-            <p>Subscribe to our newsletter to receive news and updates</p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <ul class="footer-menu">
-            <li class="menu-item by c-grey ml-0">Hybrid Design With ♥ by
-              <a href="http://inebur.com/" target="_blank">inebur</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <ul class="payment-list">
-            <li><p>Payments We Accept</p></li>
-            <li><i class="fab fa-cc-paypal"></i></li>
-            <li><i class="fab fa-cc-visa"></i></li>
-            <li><i class="fab fa-cc-mastercard"></i></li>
-            <li><i class="fab fa-cc-apple-pay"></i></li>
-            <li><i class="fab fa-cc-discover"></i></li>
-            <li><i class="fab fa-cc-amazon-pay"></i></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column">
+                <h4 class="footer-title">QUICK LINKS</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://hostorio.com/about-us">
+                            <i class="fas fa-caret-right"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{$WEB_ROOT}/supporttickets.php">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{$WEB_ROOT}/login.php">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Log In</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{$WEB_ROOT}/submitticket.php">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Support</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{$WEB_ROOT}/index.php?rp=/knowledgebase">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Knowledgebase</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Our Services -->
+            <div class="footer-column">
+                <h4 class="footer-title">OUR SERVICES</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://hostorio.com/web-hosting">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Web Hosting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hostorio.com/turbo-hosting">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Turbo Hosting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hostorio.com/business-email">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Business Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hostorio.com/reseller-hosting">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Reseller Hosting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hostorio.com/offer">
+                            <i class="fas fa-caret-right"></i>
+                            <span>Offer (Deals)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Contact Us -->
+            <div class="footer-column">
+                <h4 class="footer-title">CONTACT US</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kanchan, Rupganj, Narayanganj</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>H-161, OABDA SOROK MATHBARIA</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+8801779440297</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>mail@hostorio.com</span>
+                    </li>
+                </ul>
+                <ul class="footer-payment-icons">
+                    <li><i class="fab fa-cc-paypal"></i></li>
+                    <li><i class="fab fa-cc-visa"></i></li>
+                    <li><i class="fab fa-cc-mastercard"></i></li>
+                    <li><i class="fab fa-cc-apple-pay"></i></li>
+                    <li><i class="fab fa-cc-discover"></i></li>
+                </ul>
+            </div>
+
+        </div><!-- /.footer-content -->
+    </div><!-- /.container -->
 </footer>
+
+<!-- Footer Bottom -->
+<div class="footer-bottom">
+    <div class="container">
+        <div class="footer-bottom-content">
+            <p class="copyright">
+                &copy; {$date_year} {$companyname}. All Rights Reserved.
+            </p>
+            <ul class="footer-bottom-links">
+                <li><a href="https://hostorio.com/privacy-policy">Privacy Policy</a></li>
+                <li><span class="separator">|</span></li>
+                <li><a href="https://hostorio.com/terms-and-conditions">Terms of Service</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
